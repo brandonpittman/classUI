@@ -1,0 +1,1 @@
+(function(){$(function(){var n;return n=["Aa","Bb","Cc","Dd","Ee","Ff","Gg","Hh","Ii","Jj","Kk","Ll","Mm","Nn","Oo","Pp","Qq","Rr","Ss","Tt","Uu","Vv","Ww","Xx","Yy","Zz"],$("html").click(function(){return n.length>0?$(".announce").text(n.shift()):$(".announce").text("Good job!")})})}).call(this);

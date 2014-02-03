@@ -1,0 +1,75 @@
+@import "bourbon/bourbon"
+@import "neat/neat"
+@import "bitters/bitters"
+@import "colors/colors"
+
+=big-button($color)
+  +button($color)
+  font-size: 2.5em
+  padding: 50px 20px
+  width: 100%
+  margin: 50px 0
+button
+  +big-button($blue)
+body
+  width: 100%
+  margin: auto
+  text-align: center
+main
+  width: 80%
+  margin: auto
+a
+  &:hover,&:active,&:focus,&:visited
+    color: white
+    outline: none
+    background: none
+
+// Main Screen UI
+.start
+  +big-button($green)
+.finish
+  +big-button($red)
+.review
+  +big-button($orange)
+.games
+  +big-button($purple)
+.timer
+  +big-button($blue)
+.addTime
+  +big-button($aqua)
+  width: 15%
+  padding: 5px
+.reset
+  +big-button($red)
+  width: 15%
+  padding: 5px
+
+// Other Sections
+.left
+  float: left
+  width: 48%
+  margin: auto
+.right
+  float: right
+  width: 48%
+  margin: auto
+.stripe
+  padding: 20px
+  background: $blue
+  color: white
+  font-size: 5em
+  font-weight: 100
+  margin-bottom: 50px
+
+// Big Text
+.announce
+  font-size: 12em
+  // margin-top: 5%
+.timer-page
+  @extend .stripe
+  background: $navy
+  color: $aqua
+  // box-shadow: 0 5px 10px $gray
+.timer-screen
+  +big-button($aqua)
+  font-size: 7em

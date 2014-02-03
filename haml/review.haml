@@ -1,0 +1,22 @@
+!!!
+%html
+  %head
+    %meta{charset:'UTF-8'}
+    %link(rel="stylesheet" href="css/screen.css" type="text/css")
+    %script{src:"js/jquery.min.js"}
+  %body
+    %header
+      %a{:href => "index.html"}
+        %h1.stripe Let's review!
+    %main
+      %section.left
+        %a{href:'num20.html'}
+          %button.review 20 Count
+        %a{href:'num100.html'}
+          %button.review 100 Count
+      %section.right
+        %a{href:'alphabet.html'}
+          %button.review Alphabet
+        %a{href:'months.html'}
+          %button.review Months
+    %script{src:"js/review.js"}

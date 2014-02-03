@@ -1,0 +1,19 @@
+!!!
+%html
+  %head
+    %meta{charset:'UTF-8'}
+    %link{rel:"stylesheet", href:"css/screen.css", type:"text/css"}
+    %script{src:"js/jquery.min.js"}  
+  %body.bg-navy
+    %header
+      %a{:href => "index.html"}
+        %h1.timer-page Timer
+    %main
+      %button.1.addTime 1
+      %button.2.addTime 2
+      %button.5.addTime 5
+      %button.10.addTime 10
+      %button.reset Reset
+      %section
+        %h1.announce.timer-screen Set timer, please!
+  %script{src:"js/timer.js"}

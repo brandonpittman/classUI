@@ -1,3 +1,5 @@
+#@codekit-prepend "jquery.js"
+
 $ ->
   n = [1..20]
   $('html').click ->

@@ -1,5 +1,11 @@
+#@codekit-prepend "jquery.js"
+
 $ ->
-  song = new Audio("snd/goodbye.wav")
+  song = new Audio("snd/goodbye.mp3")
   lines = ["Let's finish English!", "Goodbye!"]
   $('html').click ->
-    if lines.length > 0 then $('.announce').text lines.shift() else song.play()
+    if lines.length > 1
+      $('.announce').text lines.shift()
+    else
+      $('.announce').text lines.shift()
+      song.play()

@@ -1,6 +1,8 @@
+#@codekit-prepend "jquery.js"
+
 $ ->
   running = secondsLeft = minutes = seconds = timerID = finished = started = null
-  alarm = new Audio('snd/alarm.wav')
+  alarm = new Audio('snd/alarm.mp3')
 
   addTime = (minutesToAdd) ->
     secondsLeft = secondsLeft + (minutesToAdd*60)

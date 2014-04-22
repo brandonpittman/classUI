@@ -1,4 +1,4 @@
-.sassc
-.DS_STORE
+*.sassc
+*.DS_STORE
 snd
-.codekit
+*.codekit

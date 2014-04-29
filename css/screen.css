@@ -741,12 +741,12 @@ a:hover, a:active, a:focus, a:visited {
 
 .left {
   float: left;
-  width: 48%;
+  width: 49%;
   margin: auto; }
 
 .right {
   float: right;
-  width: 48%;
+  width: 49%;
   margin: auto; }
 
 .stripe, .timer-page {
@@ -758,7 +758,7 @@ a:hover, a:active, a:focus, a:visited {
   margin-bottom: 50px; }
 
 .announce {
-  font-size: 10em; }
+  font-size: 8em; }
 
 .timer-page {
   background: #001f3f;

@@ -1,5 +1,4 @@
-.sass-cache
-*.sassc
+sass/.sass-cache/
 *.DS_STORE
-snd
+snd/
 *.codekit
